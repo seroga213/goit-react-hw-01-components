@@ -1,0 +1,50 @@
+.profile {
+    border: gray 1px solid;
+    margin-bottom: 30px;
+}
+
+.description {
+    text-align: center;
+    font-size: 30px;
+}
+
+.name {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.tag{
+    margin-bottom: 10px;
+}
+.location{
+    margin-bottom: 10px;
+}
+
+
+
+.stats {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.label {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.quantity {
+    font-weight: 600;
+}
+
+.statsList{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+
+}

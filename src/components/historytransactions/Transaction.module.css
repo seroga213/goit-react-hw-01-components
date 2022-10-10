@@ -1,0 +1,21 @@
+.transactionHistoryHead {
+    background-color: gray;
+    text-align: center;
+    font-size: 30px;
+}
+
+.transactionTitleColoum{
+    padding: 15px;
+}
+
+.transactionLineTable{
+    padding: 5px 15px;
+}
+
+.transactionHistoryList {
+    font-size: 24px;
+    border: 1px solid gray;
+    background-color: aquamarine;
+    text-align: center;
+
+}
