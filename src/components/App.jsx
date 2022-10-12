@@ -13,15 +13,15 @@ import { TransactionList } from './historytransactions/TransactionList';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
+    <div className="container"
+      // style={{
+      //   display: 'flex',
+      //   flexDirection: 'column',
+      //   justifyContent: 'center',
+      //   alignItems: 'center',
+      //   fontSize: 40,
+      //   color: '#010101'
+      // }}
     >
 
       <Profile 
@@ -33,7 +33,7 @@ export const App = () => {
       />
 
       <Statistics
-        stats={data}
+       title="Upload stats" stats={data}
       /> 
 
       <FriendList

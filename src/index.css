@@ -33,11 +33,22 @@ ol {
 }
 
 img {
-  display: block;
+  /* display: block; */
   max-width: 100%;
   height: auto;
 }
 
 a{
   text-decoration: none;
+}
+
+.container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40;
+  padding: 30;
+  color: #010101;
 }
